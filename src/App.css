@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: rgb(136, 68, 199);
+    color: cornsilk;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: rgb(123, 56, 185);
+}
