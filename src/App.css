@@ -11,10 +11,21 @@
     color: cornsilk;
     padding: 10px 16px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
 .submit-button:hover {
     background-color: rgb(123, 56, 185);
+}
+
+.input-field {
+    padding: 10px 16px;
+    border: 2px solid rgb(136, 68, 199);
+    border-radius: 30px;
+    margin: 16px;
+}
+
+.input-field:hover {
+    border: 2px solid rgb(104, 40, 163);
 }
