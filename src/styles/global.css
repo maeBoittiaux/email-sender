@@ -13,13 +13,12 @@ body {
     margin: auto;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 12px;
+    border-radius: 24px;
     text-align: center;
 }
 
 h1 {
     font-size: 28px;
-    margin-bottom: 20px;
     color: #333;
 }
 
@@ -29,34 +28,32 @@ form {
     align-items: center;
 }
 
-label {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #555;
-}
-
 input[type="email"] {
     font-family: "Courier New", Courier, monospace;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 440px;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    border: 2px solid #ececec;
+    border-radius: 40px;
     font-size: 16px;
+    background-color: #ececec;
 }
 
 button[type="submit"] {
     font-family: "Courier New", Courier, monospace;
     padding: 10px 20px;
-    background-color: #d16899;
-    color: #fff;
-    border: none;
-    border-radius: 12px;
+    background-color: #fff;
+    color: #d16899;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.2s;
+    border: 2px solid #d16899;
+    margin: 2px;
 }
 
 button[type="submit"]:hover {
-    background-color: #a14b77;
+    background-color: #d16899;
+    color: #fff;
 }

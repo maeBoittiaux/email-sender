@@ -25,15 +25,13 @@ export default function HomePage() {
         <div className="container">
             <h1>Click to get an email.</h1>
             <form onSubmit={handleSubmit}>
-                <label>
-                    Enter your email :
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                    />
-                </label>
+                <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder='Enter your email ...'
+                    required
+                />
                 <button type="submit">Submit</button>
             </form>
         </div>
