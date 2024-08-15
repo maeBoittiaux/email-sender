@@ -22,11 +22,11 @@ export default function HomePage() {
     };
 
     return (
-        <div style={{ padding: '20px' }}>
-            <h1>Join Our Waitlist</h1>
+        <div className="container">
+            <h1>Click to get an email.</h1>
             <form onSubmit={handleSubmit}>
                 <label>
-                    Enter your email:
+                    Enter your email :
                     <input
                         type="email"
                         value={email}

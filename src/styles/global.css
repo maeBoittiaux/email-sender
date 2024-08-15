@@ -1,42 +1,62 @@
-/* styles/global.css */
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    font-family: "Courier New", Courier, monospace;
+    width: 500px;
+    margin: auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
 }
 
 h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
     color: #333;
 }
 
-input[type="email"] {
-    padding: 10px;
-    width: 100%;
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 16px;
     margin-bottom: 10px;
-    border-radius: 4px;
+    color: #555;
+}
+
+input[type="email"] {
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
     border: 1px solid #ccc;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #0070f3;
-    color: white;
-    border: none;
     border-radius: 4px;
-    cursor: pointer;
+    font-size: 16px;
 }
 
-button:hover {
-    background-color: #005bb5;
+button[type="submit"] {
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px 20px;
+    background-color: #d16899;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #a14b77;
 }
