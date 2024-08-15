@@ -23,7 +23,7 @@ export default function HomePage() {
 
     return (
         <div className="container">
-            <h1>Click to get an email.</h1>
+            <h1>Click to get an email<span className="highlight">.</span></h1>
             <form onSubmit={handleSubmit}>
                 <input
                     type="email"

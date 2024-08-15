@@ -12,7 +12,7 @@ body {
     width: 500px;
     margin: auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fcfcfa;
     border-radius: 24px;
     text-align: center;
     box-shadow: 8px 8px #bd85c7;
@@ -35,21 +35,28 @@ input[type="email"] {
     padding: 12px;
     margin-bottom: 20px;
     margin-top: 4px;
-    border: 2px solid #ececec;
+    border: 2px solid #6272a4;
     border-radius: 40px;
     font-size: 16px;
-    background-color: #ececec;
+    background-color: #6272a4;
+    color: #fcfcfa;
 }
 
 input[type="email"]:focus {
-    border-color: #ececec;
+    border-color: #6272a4;
     outline: none;
 }
+
+input::placeholder {
+    color: #fcfcfa;
+    opacity: 1;
+}
+
 
 button[type="submit"] {
     font-family: "Courier New", Courier, monospace;
     padding: 10px 20px;
-    background-color: #fff;
+    background-color: #fcfcfa;
     color: #ac5fc6;
     border-radius: 20px;
     cursor: pointer;
@@ -61,5 +68,9 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #ac5fc6;
-    color: #fff;
+    color: #fcfcfa;
+}
+
+.highlight {
+    color: #ac5fc6;
 }
