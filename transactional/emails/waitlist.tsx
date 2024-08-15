@@ -27,7 +27,7 @@ export const WaitlistEmail: React.FC = () => (
 export default WaitlistEmail;
 
 const body = {
-  backgroundColor: '#F5F5F5',
+  backgroundColor: '#21222c',
   margin: '0 auto',
   borderRadius: '10px'
 };
@@ -38,16 +38,16 @@ const container = {
 };
 
 const heading = {
-  color: '#242323',
-  fontSize: '24px',
+  color: '#bd85c7',
+  fontSize: '26px',
   fontWeight: '600',
   lineHeight: '40px',
   margin: '0 0 20px',
 };
 
 const text = {
-  color: '#494949',
-  fontSize: '14px',
+  color: '#6272a4',
+  fontSize: '16px',
   lineHeight: '24px',
   margin: '0 0 40px',
 };
