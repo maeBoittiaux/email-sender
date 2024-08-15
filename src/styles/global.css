@@ -40,6 +40,11 @@ input[type="email"] {
     background-color: #ececec;
 }
 
+input[type="email"]:focus {
+    border-color: #d16899;
+    outline: none;
+}
+
 button[type="submit"] {
     font-family: "Courier New", Courier, monospace;
     padding: 10px 20px;
